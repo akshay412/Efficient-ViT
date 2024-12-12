@@ -16,6 +16,8 @@ Used a ViT patch 16-224 as the base model and implemented image classification o
 ## Milestones  <a name="milestones"></a>
 
 ### Flash Attention
+Minimized overhead and sped up attention process using Flash Attention.
+Reduced computational burden typically associated with ViTs
 
 ### Pruning
 Implemented attention head pruning using L2 Norm of grouped weights. Network can be pruned iteratively for different pruning ratios and steps giving sparser models
